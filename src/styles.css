@@ -128,7 +128,7 @@ section.secondery {
   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 .card-body {
-  padding: 30px;
+  padding: 60px;
 }
 
 .card h3 {
@@ -248,6 +248,9 @@ section {
   .grid {
     grid-template-columns: 1fr;
     grid-gap: 32px;
+  }
+  .card-body {
+    padding: 30px;
   }
   section {
     padding: 30px;
