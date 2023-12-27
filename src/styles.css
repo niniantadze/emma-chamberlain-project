@@ -105,12 +105,20 @@ main img {
   display: block;
 }
 
+iframe {
+  width: 100%;
+  aspect-ratio: 16/9;
+}
+
+.card-header.grid {
+  grid-gap: 0;
+}
 .center-text {
   text-align: center;
 }
 section.secondery {
   background: #f8f8f8;
-  padding: 100px 171px;
+  padding: 100px;
 }
 
 .card {
