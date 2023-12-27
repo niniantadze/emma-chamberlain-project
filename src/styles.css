@@ -259,4 +259,7 @@ section {
     font-size: 8px;
     padding: 10px;
   }
+  section.secondery {
+    padding: 10px;
+  }
 }
