@@ -60,6 +60,7 @@ body {
   display: inline-block;
   margin-top: 32px;
   max-width: 1400px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
 main {
@@ -97,10 +98,61 @@ main p {
 main img {
   width: 100%;
   height: auto;
-  border-radius: 10px;
-  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.img-responsive {
+  max-width: 100%;
+  display: block;
 }
 
+.center-text {
+  text-align: center;
+}
+section.secondery {
+  background: #f8f8f8;
+  padding: 100px 171px;
+}
+
+.card {
+  margin-top: 50px;
+  background: white;
+
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.card-body {
+  padding: 30px;
+}
+
+.card h3 {
+  margin: 0;
+  color: #1d848e;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.card-footer {
+  margin-top: 48px;
+}
+.card a {
+  text-decoration: none;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  background: #1d848e;
+  color: white;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+}
+.grid-3-columns {
+  grid-template-columns: 1fr 1fr 1fr;
+}
 footer {
   background-image: linear-gradient(
       rgba(27, 134, 80, 0.6),
@@ -183,5 +235,9 @@ section {
   }
   section {
     padding: 30px;
+  }
+  .card a {
+    font-size: 8px;
+    padding: 10px;
   }
 }
