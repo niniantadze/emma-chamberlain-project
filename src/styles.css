@@ -160,6 +160,14 @@ section.secondery {
 }
 .grid-3-columns {
   grid-template-columns: 1fr 1fr 1fr;
+  margin: 0 auto;
+}
+
+.section-3 {
+  margin: 0 auto;
+}
+.section-3 h2 {
+  margin-bottom: 50px;
 }
 footer {
   background-image: linear-gradient(
