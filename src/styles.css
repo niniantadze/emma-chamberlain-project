@@ -1,3 +1,70 @@
 body {
   font-family: "Poppins", sans-serif;
+  background: #272044;
+  margin-top: 0;
+}
+.header-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+    url(/img/emma-chamberlain-attends-the-2021-met-gala-celebrating-in-news-photo-1631569019.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  color: white;
+  text-align: center;
+  padding: 200px 0;
+  margin: 0 auto;
+  margin-top: 0;
+  max-width: 1200px;
+}
+.header-container h4 {
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.5;
+  letter-spacing: 5px;
+  margin: 0;
+}
+
+.header-container h1 {
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 1;
+  margin: 30px 0;
+}
+.header-container h2 {
+  font-size: 40px;
+  line-height: 1.5;
+  font-weight: 400;
+  margin: 0;
+}
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+.header-container a {
+  padding: 16px 32px;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.5;
+  letter-spacing: 3px;
+  text-align: center;
+  color: #272044;
+  background: white;
+  text-decoration: none;
+  display: inline-block;
+  margin-top: 32px;
+}
+@media (max-width: 900px) {
+  .header-container {
+    padding: 60px 0;
+  }
+  .header-container h1 {
+    font-size: 48px;
+  }
+  .header-container h4 {
+    font-size: 12px;
+  }
+  .header-container h2 {
+    font-size: 20px;
+  }
 }
